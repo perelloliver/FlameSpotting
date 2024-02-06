@@ -30,7 +30,7 @@ from policies import *
 
 #Set API key here
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API KEY"
 llm =ChatOpenAI(model_name="gpt-3.5-turbo-1106", temperature=0)
 
 #These prompts are to be situated within an overall agent structure in future, not just as API chains
